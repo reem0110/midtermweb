@@ -4,6 +4,42 @@
     box-sizing: border-box; 
     font-family: "Poppins", sans-serif;
   } 
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
    
   body{ 
     min-height: 100vh; 
@@ -110,35 +146,34 @@
   } 
   .about { 
     display: flex; 
-    flex-direction: row; /* Stack children vertically */ 
-    align-items: center; /* Center items horizontally */ 
-    justify-content: space-around; /* Center items vertically */ 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-around; 
   } 
    
   .about h2 { 
-     /* Change to a cool font (can use Google Fonts) */ 
-    font-size: 40px; /* Adjust font size */ 
-    font-weight: 10; /* Make it not bold */ 
-    margin: 10px 0; /* Space above and below */ 
+    font-size: 40px; 
+    font-weight: 10; 
+    margin: 10px 0; 
   } 
    
   .about p { 
-    color: rgba(0, 0, 0, 0.7); /* Slightly gray text */ 
-    text-transform: lowercase; /* Make text lowercase */ 
+    color: rgba(0, 0, 0, 0.7);  
+    text-transform: lowercase; 
     margin: 10px 0; 
-     /* Space above and below */ 
+    
   } 
    
   .about button { 
-    padding: 10px 20px; /* Padding for buttons */ 
-    margin: 10px 0; /* Space above and below */ 
-    font-size: 16px; /* Button font size */ 
-    cursor: pointer; /* Pointer cursor on hover */ 
-    border: none; /* Remove default border */ 
-    border-radius: 5px; /* Rounded corners */ 
-    background-color: #b5e8ed; /* Button background color */ 
-    color: black; /* Button text color */ 
-    transition: background-color 0.3s; /* Smooth transition */ 
+    padding: 10px 20px; 
+    margin: 10px 0; 
+    font-size: 16px; 
+    cursor: pointer;  
+    border: none;  
+    border-radius: 5px;  
+    background-color: #b5e8ed;  
+    color: black; 
+    transition: background-color 0.3s; 
   } 
    
   .about button:hover { 
