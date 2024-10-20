@@ -2,6 +2,7 @@
     margin: 0; 
     padding: 0; 
     box-sizing: border-box; 
+    font-family: "Poppins", sans-serif;
   } 
    
   body{ 
@@ -115,7 +116,7 @@
   } 
    
   .about h2 { 
-    font-family: monospace; /* Change to a cool font (can use Google Fonts) */ 
+     /* Change to a cool font (can use Google Fonts) */ 
     font-size: 40px; /* Adjust font size */ 
     font-weight: 10; /* Make it not bold */ 
     margin: 10px 0; /* Space above and below */ 
@@ -125,7 +126,7 @@
     color: rgba(0, 0, 0, 0.7); /* Slightly gray text */ 
     text-transform: lowercase; /* Make text lowercase */ 
     margin: 10px 0; 
-    font-family:'Courier New', Courier, monospace; /* Space above and below */ 
+     /* Space above and below */ 
   } 
    
   .about button { 
