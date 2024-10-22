@@ -84,6 +84,11 @@ nav ul li a:hover {
   color: #4198d2;   
 } 
 
+nav ul li a.active {
+  background-color: #4198d2;
+  color: #fff;
+}
+
 .sidebar{ 
 position: fixed; 
 top: 0; 
@@ -118,7 +123,7 @@ width: 100%;
 .sidebar{ 
   width:100% 
 } 
-} 
+}
   
 .illustration {  
   display: flex;   
