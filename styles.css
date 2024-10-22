@@ -48,7 +48,7 @@ body{
   
 nav{
   height: 60px;
-  background-color: var(--color-1);
+  background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -67,16 +67,16 @@ nav a{
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: var(--text-color);
+  color: black;
 }
 nav a:hover{
-  color: rgb(104, 175, 215);
+  color: rgb(75, 138, 221);
 }
 nav .home-link{
   margin-right: auto;
 }
 nav svg{
-  fill: var(--text-color);
+  fill: black;
 }
 #sidebar-active{
   display: none;
@@ -95,7 +95,8 @@ nav svg{
     z-index: 10;
     width: 300px;
 
-    background-color: var(--color-1);
+    background-color: rgba(97, 134, 167, 0.383); 
+    backdrop-filter: blur(8px);
     box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
     transition: 0.75s ease-out;
   }
@@ -244,33 +245,56 @@ nav svg{
 } 
  
   
-.services {  
-  padding: 50px;  
-  background-color: #fff;  
-  text-align: center;  
-}  
-  
-.services h2 {  
-  font-size: 32px;  
-  margin-bottom: 20px;  
-}  
-  
-.service-cards {  
-  display: flex;   
-  justify-content: space-around;   
-  flex-wrap: wrap; /  
-}  
-  
-.service-card {  
-  background-color: #f4efef;  
-  padding: 20px;  
-  width: 200px;  
-  text-align: center;  
-  border-radius: 10px;  
-  margin: 10px;   
-}  
-  
-.service-card img {  
-  max-width: 50px;  
-  margin-bottom: 10px;  
+services {
+  padding: 6rem 2rem;
+  max-width: var(--max-width);
+  margin: auto;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 2rem;
+  color: var(--text-dark);
+  margin-bottom: 2rem;
+}
+
+.services p {
+  color: var(--text-light);
+  margin-bottom: 4rem;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  max-width: 280px;
+  background-color: #e8e7f4;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.service-card img {
+  width: 80px;
+  margin-bottom: 1rem;
+}
+
+.service-card h3 {
+  font-size: 1.25rem;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+
+.service-card p {
+  color: var(--text-light);
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
 }
